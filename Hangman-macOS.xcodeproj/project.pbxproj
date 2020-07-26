@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B2C1CB524CCD60D001CA784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C1CB424CCD60D001CA784 /* AppDelegate.swift */; };
-		9B2C1CB724CCD60D001CA784 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C1CB624CCD60D001CA784 /* ViewController.swift */; };
+		9B2C1CB724CCD60D001CA784 /* HangmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C1CB624CCD60D001CA784 /* HangmanViewController.swift */; };
 		9B2C1CB924CCD60D001CA784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2C1CB824CCD60D001CA784 /* Assets.xcassets */; };
 		9B2C1CBC24CCD60D001CA784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2C1CBA24CCD60D001CA784 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		9B2C1CB124CCD60D001CA784 /* Hangman-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hangman-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2C1CB424CCD60D001CA784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B2C1CB624CCD60D001CA784 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B2C1CB624CCD60D001CA784 /* HangmanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanViewController.swift; sourceTree = "<group>"; };
 		9B2C1CB824CCD60D001CA784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B2C1CBB24CCD60D001CA784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B2C1CBD24CCD60D001CA784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				9B2C1CB424CCD60D001CA784 /* AppDelegate.swift */,
-				9B2C1CB624CCD60D001CA784 /* ViewController.swift */,
+				9B2C1CB624CCD60D001CA784 /* HangmanViewController.swift */,
 				9B2C1CB824CCD60D001CA784 /* Assets.xcassets */,
 				9B2C1CBA24CCD60D001CA784 /* Main.storyboard */,
 				9B2C1CBD24CCD60D001CA784 /* Info.plist */,
@@ -133,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B2C1CB724CCD60D001CA784 /* ViewController.swift in Sources */,
+				9B2C1CB724CCD60D001CA784 /* HangmanViewController.swift in Sources */,
 				9B2C1CB524CCD60D001CA784 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

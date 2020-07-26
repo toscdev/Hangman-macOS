@@ -7,8 +7,10 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class HangmanViewController: NSViewController {
 
+    @IBOutlet weak var wordToGuessLabel: NSTextField!
+    @IBOutlet weak var categoryLabel: NSTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,6 +23,8 @@ class ViewController: NSViewController {
         }
     }
 
-
+    @IBAction func letterButtonPressed(_ sender: NSButton) {
+    }
+    
 }
 
