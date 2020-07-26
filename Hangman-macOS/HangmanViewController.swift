@@ -11,10 +11,15 @@ class HangmanViewController: NSViewController {
 
     @IBOutlet weak var wordToGuessLabel: NSTextField!
     @IBOutlet weak var categoryLabel: NSTextField!
+    @IBOutlet weak var life1: NSImageView!
+    @IBOutlet weak var life2: NSImageView!
+    @IBOutlet weak var life3: NSImageView!
+    @IBOutlet weak var life4: NSImageView!
+    @IBOutlet weak var life5: NSImageView!
+    @IBOutlet weak var life6: NSImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
     override var representedObject: Any? {

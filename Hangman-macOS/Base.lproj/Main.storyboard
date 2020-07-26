@@ -1013,11 +1013,6 @@
                                     <action selector="letterButtonPressed:" target="XfG-lQ-9wD" id="Nbx-Gq-eM8"/>
                                 </connections>
                             </button>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rZ1-wO-QJV">
-                                <rect key="frame" x="28" y="160" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="heart-full" id="zan-Qp-I0i"/>
-                            </imageView>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0OE-dd-JKW">
                                 <rect key="frame" x="71" y="160" width="35" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -1048,11 +1043,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="heart-full" id="V7T-0O-4hm"/>
                             </imageView>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YyI-Bz-JLe">
-                                <rect key="frame" x="329" y="160" width="35" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="heart-full" id="ido-GS-Dvc"/>
-                            </imageView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Xu-P8-hOJ">
                                 <rect key="frame" x="18" y="207" width="357" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -1066,6 +1056,12 @@
                     </view>
                     <connections>
                         <outlet property="categoryLabel" destination="1Xu-P8-hOJ" id="xpr-C0-gEE"/>
+                        <outlet property="life1" destination="0OE-dd-JKW" id="jwq-Vh-DZB"/>
+                        <outlet property="life2" destination="JQF-uA-g63" id="9GU-4i-e53"/>
+                        <outlet property="life3" destination="tMh-Dw-rVk" id="qee-rZ-kKg"/>
+                        <outlet property="life4" destination="NRV-aJ-1fl" id="6AS-1p-RVJ"/>
+                        <outlet property="life5" destination="NMC-wz-xFT" id="QVU-ij-hVE"/>
+                        <outlet property="life6" destination="KaW-x0-5CH" id="Sbz-YM-kyp"/>
                         <outlet property="wordToGuessLabel" destination="0Pl-Q4-NWi" id="0gE-mo-ZI3"/>
                     </connections>
                 </viewController>
