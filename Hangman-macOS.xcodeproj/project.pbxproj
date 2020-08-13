@@ -11,6 +11,8 @@
 		9B2C1CB724CCD60D001CA784 /* HangmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C1CB624CCD60D001CA784 /* HangmanViewController.swift */; };
 		9B2C1CB924CCD60D001CA784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2C1CB824CCD60D001CA784 /* Assets.xcassets */; };
 		9B2C1CBC24CCD60D001CA784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2C1CBA24CCD60D001CA784 /* Main.storyboard */; };
+		9B66F94224CDB9E30076374E /* WordProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B66F94124CDB9E30076374E /* WordProvider.swift */; };
+		9B73D68D24D34FB8006B3544 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B73D68C24D34FB8006B3544 /* GameOverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		9B2C1CBB24CCD60D001CA784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B2C1CBD24CCD60D001CA784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B2C1CBE24CCD60D001CA784 /* Hangman_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hangman_macOS.entitlements; sourceTree = "<group>"; };
+		9B66F94124CDB9E30076374E /* WordProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordProvider.swift; sourceTree = "<group>"; };
+		9B73D68C24D34FB8006B3544 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				9B2C1CB424CCD60D001CA784 /* AppDelegate.swift */,
+				9B66F94124CDB9E30076374E /* WordProvider.swift */,
 				9B2C1CB624CCD60D001CA784 /* HangmanViewController.swift */,
+				9B73D68C24D34FB8006B3544 /* GameOverViewController.swift */,
 				9B2C1CB824CCD60D001CA784 /* Assets.xcassets */,
 				9B2C1CBA24CCD60D001CA784 /* Main.storyboard */,
 				9B2C1CBD24CCD60D001CA784 /* Info.plist */,
@@ -133,8 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B66F94224CDB9E30076374E /* WordProvider.swift in Sources */,
 				9B2C1CB724CCD60D001CA784 /* HangmanViewController.swift in Sources */,
 				9B2C1CB524CCD60D001CA784 /* AppDelegate.swift in Sources */,
+				9B73D68D24D34FB8006B3544 /* GameOverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
