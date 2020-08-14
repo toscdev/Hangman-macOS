@@ -12,6 +12,10 @@
 		9B2C1CB924CCD60D001CA784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2C1CB824CCD60D001CA784 /* Assets.xcassets */; };
 		9B2C1CBC24CCD60D001CA784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2C1CBA24CCD60D001CA784 /* Main.storyboard */; };
 		9B66F94224CDB9E30076374E /* WordProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B66F94124CDB9E30076374E /* WordProvider.swift */; };
+		9B7310A624E6FC250011BFD4 /* hangman-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7310A324E6FC250011BFD4 /* hangman-3.png */; };
+		9B7310A724E6FC250011BFD4 /* hangman-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7310A424E6FC250011BFD4 /* hangman-1.png */; };
+		9B7310A824E6FC250011BFD4 /* hangman-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B7310A524E6FC250011BFD4 /* hangman-2.png */; };
+		9B7310AA24E6FF140011BFD4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9B7310A924E6FF140011BFD4 /* LICENSE */; };
 		9B73D68D24D34FB8006B3544 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B73D68C24D34FB8006B3544 /* GameOverViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +28,11 @@
 		9B2C1CBD24CCD60D001CA784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B2C1CBE24CCD60D001CA784 /* Hangman_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hangman_macOS.entitlements; sourceTree = "<group>"; };
 		9B66F94124CDB9E30076374E /* WordProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordProvider.swift; sourceTree = "<group>"; };
+		9B73109B24E6E63C0011BFD4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9B7310A324E6FC250011BFD4 /* hangman-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman-3.png"; sourceTree = "<group>"; };
+		9B7310A424E6FC250011BFD4 /* hangman-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman-1.png"; sourceTree = "<group>"; };
+		9B7310A524E6FC250011BFD4 /* hangman-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman-2.png"; sourceTree = "<group>"; };
+		9B7310A924E6FF140011BFD4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9B73D68C24D34FB8006B3544 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,6 +50,9 @@
 		9B2C1CA824CCD60D001CA784 = {
 			isa = PBXGroup;
 			children = (
+				9B73109C24E6F9D60011BFD4 /* Screenshots */,
+				9B73109B24E6E63C0011BFD4 /* README.md */,
+				9B7310A924E6FF140011BFD4 /* LICENSE */,
 				9B2C1CB324CCD60D001CA784 /* Hangman-macOS */,
 				9B2C1CB224CCD60D001CA784 /* Products */,
 			);
@@ -67,6 +79,16 @@
 				9B2C1CBE24CCD60D001CA784 /* Hangman_macOS.entitlements */,
 			);
 			path = "Hangman-macOS";
+			sourceTree = "<group>";
+		};
+		9B73109C24E6F9D60011BFD4 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				9B7310A424E6FC250011BFD4 /* hangman-1.png */,
+				9B7310A524E6FC250011BFD4 /* hangman-2.png */,
+				9B7310A324E6FC250011BFD4 /* hangman-3.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +149,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7310AA24E6FF140011BFD4 /* LICENSE in Resources */,
+				9B7310A724E6FC250011BFD4 /* hangman-1.png in Resources */,
+				9B7310A824E6FC250011BFD4 /* hangman-2.png in Resources */,
 				9B2C1CB924CCD60D001CA784 /* Assets.xcassets in Resources */,
+				9B7310A624E6FC250011BFD4 /* hangman-3.png in Resources */,
 				9B2C1CBC24CCD60D001CA784 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
